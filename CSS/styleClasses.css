@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    width: 50px;
+}
+
+#prox-btn{
+    transform: rotate(180deg);
+}
+
+.container-externo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-interno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-card{
+    background-color: black;
+    max-width: 1000px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    display: none;
+    
+}
+
+.on{
+    display: flex;
+}
+
+.container-card .container-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.container-card .container-img img{
+    border-radius: 10px;
+}
+
+.container-card .container-img .cacador{
+    box-shadow: 0px 0px 10px -5px white;
+}
+
+.container-card .container-img .mago{
+    box-shadow: 0px 0px 10px -3px white;
+}
+
+.container-card .container-img .guerreiro{
+    box-shadow: 0px 0px 10px -2px white;
+}
+
+.container-card .container-txt{
+    height: 80%;
+    width: 50%;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.container-card span{
+    color: white;
+    font-size: 1.3rem;
+}
+
+
+.container-card:hover{
+    background-color: rgb(10, 10, 10);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 740px) {
+    .container-card{
+        flex-direction: column;
+        width: auto;
+        height: 520px;
+    }
+
+    .container-card .container-img{
+        padding-top: 10px;
+    }
+
+    .container-card .container-txt{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        padding-top: 0px;
+    }
+    
+}
+
+
+@media screen and (max-width: 500px) {
+    .container-card{
+        flex-direction: column;
+        height: 600px;
+    }
+    .container-card .container-img{
+        margin-top: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+    .container-card{
+        height: 730px;
+    }
+    
+}

@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+*{
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Slabo 27px', serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #333333;
+    text-shadow: 0px 0px 10px black
+}
+
+#desc-classes{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#h1-guia{
+    margin-top: 200px;
+}
+
+.introducao{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+.int-txt{
+    padding: 50px;
+}
+
+.rodape{
+    display: flex;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    justify-content: space-around;
+    height: 300px;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.social h2, .conclusao h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.conclusao span{
+    font-size: 1.2rem;
+}
+
+.social ul li{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.social ul li span {
+    padding-left: 10px;
+}
+
+.social ul li a span:hover{
+    font-family: 1.8rem;
+    color: rgb(129, 129, 129);
+}
+
+.conclusao {
+    max-width: 400px;
+}
+
+@media screen and (max-width: 740px){
+    .rodape{
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+
+    .footer-box{
+        width: auto;
+    }
+
+    .conclusao{
+        margin-bottom: 30px;
+    }
+
+    .social{
+        text-align: left;
+    }
+}
+
+
+
+.container-guia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    text-align: left;
+    width: 80%;
+    padding: 30px;
+    font-size: 1.5rem;
+    list-style: decimal;
+    background-color: black;
+    
+}
+
+main h2{
+    margin: 50px 0px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.box ol li{
+    padding: 10px;
+}
+
+.box ol p{
+    margin-bottom: 50px;
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+    padding: 30px;
+    font-size: 1.5rem;
+    background-color: black;
+}
+
+.box-img img{
+padding-left: 10px;
+}
+
+.box-img .texto{
+    padding: 50px;
+    width: 70%;
+}
+
+@media screen and (max-width: 740px){
+    .box-img{
+        flex-direction: column;
+    }
+    .box-img .texto{
+        padding: 0;
+        width: auto;
+    }
+    .box-img img{
+        padding-top: 20px;
+        }
+}

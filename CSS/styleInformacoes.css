@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+*{
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Slabo 27px', serif;
+}
+
+h1 {
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+}
+
+.box {
+    text-align: left;
+    width: 400px;
+    margin-left: 100px;
+    padding: 30px;
+}
+
+.box p{
+    padding-bottom: 30px;
+}
+
+.box li {
+    padding-bottom: 5px;
+}
+
+.box h2 {
+padding: 5px;
+}
+
+.box-img {
+    text-align: left;
+    width: 800px;
+    margin-left: 100px;
+    padding: 30px;
+    display: flex;
+    
+}
+
+.box-img p{
+padding-bottom: 15px;
+padding-right: 50px;
+}
+
+#imagem {
+    border: solid 1px cyan;
+}
